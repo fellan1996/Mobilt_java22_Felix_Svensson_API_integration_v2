@@ -1,5 +1,6 @@
 package com.gritacademy.apiintegration
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -54,6 +55,7 @@ class BranchActivity1 : AppCompatActivity() {
         val retrofitData = retrofitBuilder.getData()
 
         retrofitData.enqueue(object : Callback<List<MyDataTestItem>?> {
+            @SuppressLint("NotifyDataSetChanged")
             override fun onResponse(
                 call: Call<List<MyDataTestItem>?>,
                 response: Response<List<MyDataTestItem>?>

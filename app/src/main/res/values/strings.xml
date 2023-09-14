@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">API integration</string>
+    <string name="user_id">User Id</string>
+    <string name="title">Title</string>
+    <string name="android_head">The head of the android mascot</string>
+    <string name="back">Back</string>
 </resources>

@@ -22,21 +22,22 @@
                 android:id="@+id/image_movie"
                 android:layout_width="100dp"
                 android:src="@mipmap/ic_launcher"
-                android:layout_height="100dp" />
+                android:layout_height="100dp"
+                android:contentDescription="@string/android_head" />
             
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="8dp">
+                android:layout_marginStart="8dp">
 
                 <TextView
                     android:id="@+id/userId"
                     android:textColor="@android:color/black"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:text="User Id"
+                    android:text="@string/user_id"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
@@ -45,7 +46,7 @@
                     android:textColor="@android:color/black"
                     android:textStyle="normal"
                     android:textSize="16sp"
-                    android:text="Title"
+                    android:text="@string/title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
             </LinearLayout>
